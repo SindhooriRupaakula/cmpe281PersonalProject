@@ -1,0 +1,4 @@
+rm build/*
+javac -cp lib/\* -d build src/*.java
+java -cp build:lib/org.restlet.jar HelloWorldServer
+java -cp build:lib/\* HelloClient
